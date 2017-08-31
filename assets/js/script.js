@@ -178,7 +178,7 @@ $(document).ready(function() {
     $(".graphics").hide();
     $(".art").hide();
     $(".photo").fadeIn(500);
-    $(document).scrollTop(0);
+    $(document).scrollTop(70);
     $(".resume").hide();
     $(".contact").hide();
     $(".navbar").show();
