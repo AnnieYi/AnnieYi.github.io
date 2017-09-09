@@ -165,6 +165,25 @@ path {
   cursor: pointer;
 }
 
+.resume{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-bottom: 100px;
+}
+.resume1{
+  margin-left: 30px;
+}
+
+#title_resume{
+  font-size: 40px;
+  margin: 30px;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  font-weight:bolder;
+  color: #525050;
+}
+
 .portfolio{
   text-align: center;
   margin-top: 50px;
