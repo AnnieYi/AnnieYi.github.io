@@ -174,8 +174,10 @@ path {
 }
 
 .resume1{
-  margin-top: 0;
-  margin-left: 30px;
+  margin-top: 50px;
+  text-align: center;
+  width: 75%;
+  filter: grayscale(75%);
 }
 
 #title_resume{
