@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
   $(".overlay").hide();
   $(".menu-container").hide();
   $(".menu_text").hide();
@@ -228,5 +229,6 @@ $(document).ready(function() {
         $(this).removeClass("hovered");
     });
   });
+
 
   });
