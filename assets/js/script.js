@@ -9,6 +9,7 @@ $(document).ready(function() {
   $(".art").hide();
   $(".photo").hide();
   $(".resume").hide();
+  $(".projects").hide();
   $(".contact").hide();
 
 
@@ -51,6 +52,7 @@ $(document).ready(function() {
     $(".resume").hide();
     $(".contact").hide();
     $(".navbar").show();
+    $(".projects").hide();
     $("svg").hide();
 
   });
@@ -67,6 +69,7 @@ $(document).ready(function() {
     $(".resume").hide();
     $(".contact").hide();
     $(".navbar").show();
+    $(".projects").hide();
     $("svg").fadeIn(500);
   });
 
@@ -82,6 +85,7 @@ $(document).ready(function() {
     $(".resume").fadeIn(1000);
     $(".contact").hide();
     $(".navbar").show();
+    $(".projects").hide();
     $("svg").hide()
   });
 
@@ -97,6 +101,7 @@ $(document).ready(function() {
     $(".resume").hide();
     $(".contact").hide();
     $(".navbar").show();
+    $(".projects").hide();
     $("svg").hide()
   });
   $("#contact").click(function(){
@@ -112,6 +117,7 @@ $(document).ready(function() {
     $(".contact_words").hide();
     $(".contact").fadeIn(500);
     $(".navbar").show();
+    $(".projects").hide();
     $("svg").show();
   });
   $("#facebook").click(function(){
@@ -151,6 +157,7 @@ $(document).ready(function() {
     $(".resume").hide();
     $(".contact").hide();
     $(".navbar").show();
+    $(".projects").hide();
     $("svg").hide();
   });
 
@@ -166,6 +173,7 @@ $(document).ready(function() {
     $(".resume").hide();
     $(".contact").hide();
     $(".navbar").show();
+    $(".projects").hide();
     $("svg").hide();
   });
 
@@ -182,7 +190,25 @@ $(document).ready(function() {
     $(".resume").hide();
     $(".contact").hide();
     $(".navbar").show();
+    $(".projects").hide();
     $("svg").hide();
+  });
+
+  $("#projects").click(function(){
+    $(".overlay").hide();
+    $(".menu-container").hide();
+    $(".menu_text").hide();
+    $(".about").hide();
+    $(".portfolio").hide();
+    $(".graphics").hide();
+    $(".art").hide();
+    $(".photo").hide();
+    $(document).scrollTop(70);
+    $(".resume").hide();
+    $(".contact").hide();
+    $(".navbar").show();
+    $("svg").hide();
+    $(".projects").show();
   });
 
   $(function() {
